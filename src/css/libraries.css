@@ -1,0 +1,54 @@
+.flatpickr-calendar {
+  margin-top: 8px;
+  border-radius: 8px;
+  border: none;
+  min-width: 280px;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  background-color: #f5f5f5;
+}
+
+.flatpickr-month {
+  font-size: 16px;
+  padding: 0;
+}
+
+.flatpickr-weekdays {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  color: #2e2f42;
+}
+
+.flatpickr-day {
+  border-radius: 100%;
+  transition: 0.3s;
+}
+
+.flatpickr-day.today {
+  border-color: #4e75ff;
+  color: black;
+  font-weight: bold;
+}
+
+.flatpickr-day.selected {
+  background: #4e75ff;
+  color: #fff;
+}
+
+.flatpickr-day:hover {
+  background: #ddd;
+  color: #000;
+}
+
+.flatpickr-day.disabled {
+  color: #ccc;
+  background: transparent;
+}
+
+.iziToast > .iziToast-close {
+  background: url('../img/close-icon.svg') no-repeat 50% 50%;
+  background-size: 16px;
+}
